@@ -491,6 +491,13 @@
             body { background: white; }
             main { max-width: 100%; }
         }
+    
+        .popup { width: min(380px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow-y: auto; }
+        .diagram-clickable:focus-visible, .term:focus-visible { outline: 2px solid #376568; }
+        @media screen and (max-width: 700px) {
+            .diagram-container { overflow-x: auto; }
+            .diagram-container svg { width: 850px; max-width: none; }
+        }
     </style>
 </head>
 <body>
@@ -518,15 +525,15 @@
 <section id="synopsis">
     <h2>Synopsis</h2>
     
-    <p>A coconut trader narrates three encounters with <span class="term" data-term="hamadryad">Mr. Hamadryad</span>, a peculiar long-nosed gentleman, over a span of years. Each meeting takes place in a remote club—<span class="term" data-term="third-cataract">The Third Cataract Club</span> in Dongola, Sudan; the <span class="term" data-term="sun-deck">Sun-Deck Club</span> in Oklahoma City; and <span class="term" data-term="drills-marine">Drill's Marine Bar</span> on Easter Island. At each location, Hamadryad orders an elaborate local drink, pays with increasingly worthless currency, and dines on the stomach of a suckling animal distended with its first milk.</p>
+    <p>A coconut trader narrates three encounters with <span class="term" data-term="hamadryad">Mr. Hamadryad</span>, a peculiar long-nosed gentleman, over a span of years. Each meeting takes place in a club—<span class="term" data-term="third-cataract">The Third Cataract Club</span> in Dongola, Sudan; the <span class="term" data-term="sun-deck">Sun-Deck Club</span> in Oklahoma City; and <span class="term" data-term="drills-marine">Drill's Marine Bar</span> on Easter Island. At each location, Hamadryad orders an elaborate local drink, pays with increasingly worthless currency, and dines on the stomach of a suckling animal distended with its first milk.</p>
     
     <p>Hamadryad expounds a private cosmology: the world has been governed by the <span class="term" data-term="monkey-cat">Monkey-Cat alternation</span>, a cycle in which two pre-Adamic races—the Monkeys (baboons, drills, mandrills) and the Cats (panthers, leopards, caracals)—alternate as masters and slaves across vast aeons. The dominant race is visible and "present"; the slave race is invisible, condemned to the terrible spiritual labor of moving mountains and raising megalithic idols to their masters. This is the <span class="term" data-term="faith-mountains">Faith-that-Moves-Mountains</span>—not metaphor but literal, soul-wrenching telekinesis performed as ransom.</p>
     
-    <p>In the first two encounters, the sinister <span class="term" data-term="caracal">Mr. Caracal</span>—a suave, silky man with steep ears—appears, growing bolder, and Hamadryad shrills "This is rebellion!" But the turnover cannot yet be completed; the time has not come.</p>
+    <p>In the first two encounters, the sinister <span class="term" data-term="caracal">Mr. Caracal</span>—a suave, silky man with steep ears—appears to the narrator in Dongola and challenges Hamadryad openly in Oklahoma City, and Hamadryad shrills "This is rebellion!" But the turnover cannot yet be completed; the time has not come.</p>
     
     <p><span class="term" data-term="easter-island">Easter Island</span>, the remnant of a once-vast floating paradise, drifts toward coordinates 29°S, 111°W—the <span class="term" data-term="blind-spot">Shadow of God's Thumb</span>, a blind spot where God cannot see. When the island enters this shadow, the turnover occurs. The Monkey era ends; the Cat era begins.</p>
     
-    <p>In the climactic scene, the narrator feels himself splitting. Something departs from his left shoulder to become an invisible slave. Something else—cool, clean, cruel—takes possession of his body. Hamadryad shrivels into invisibility, stepping out of his boots to reveal baboon feet. <span class="term" data-term="caracal">Caracal</span> achieves presence. The narrator realizes he has become a Cat, "divinely mad, but cool and cruel," ready to organize the world—including "the last of the monkey-business," the coconut trade—into the World-Wide New Era Great Cat Coconut Cartel.</p>
+    <p>In the climactic scene, the narrator feels himself splitting. One aspect of him leaves his body and whimpers unseen at his shoulder. Another takes possession and calls himself a cat (145–47). Hamadryad shrivels into invisibility, stepping out of his boots to reveal baboon feet. <span class="term" data-term="caracal">Caracal</span> achieves presence. The narrator realizes he has become a Cat, "divinely mad, but cool and cruel," ready to organize the world—including "the last of the monkey-business," the coconut trade—into the World-Wide New Era Great Cat Coconut Cartel.</p>
     
     <p>The story ends with the chilling words: "Holy cats, we have organized it all!"</p>
 </section>
@@ -568,13 +575,13 @@
                 <td>Final Catastrophe</td>
             </tr>
             <tr>
-                <td><strong>Base Spirit</strong></td>
+                <td><strong>Base drink</strong></td>
                 <td>Palm wine</td>
                 <td>Clear whiskey</td>
                 <td>Green palm wine (fermenting)</td>
             </tr>
             <tr>
-                <td><strong>Mineral Dust</strong></td>
+                <td><strong>Seasoning</strong></td>
                 <td>Saline rock-dust</td>
                 <td>Gypsum dust (Alabaster Hills)</td>
                 <td>Sharkskin pepper</td>
@@ -607,13 +614,13 @@
                 <td><strong>Time Gap</strong></td>
                 <td>—</td>
                 <td>Five years</td>
-                <td>"Several years"</td>
+                <td>Several years (139)</td>
             </tr>
             <tr>
                 <td><strong>Caracal's Status</strong></td>
-                <td>Enters; ordered back</td>
-                <td>Enters; nearly attacks</td>
-                <td>Takes control; turnover</td>
+                <td>Narrator thinks he enters (130–31)</td>
+                <td>Identified as corridor presence (139)</td>
+                <td>Gains full presence (146)</td>
             </tr>
         </tbody>
     </table>
@@ -637,11 +644,11 @@
     
     <h3>The Monkey-Cat Alternation</h3>
     
-    <p>Lafferty grafts his mythology onto the Chinese Yin-Yang, asking "Is the Yin-Yang alternation the same as the Monkey-Cat alternation?" Two pre-Adamic races are "chained together" in punishment: during each aeon, one is master (visible, present, dominant) while the other is slave (invisible, absent, laboring). The dominant race forces its slaves to raise great idols of themselves through the terrible spiritual labor of mountain-moving.</p>
+    <p>The narrator asks "Is the Yin-Yang alternation the same as the Monkey-Cat alternation?" He leaves the identification open (131). In Hamadryad’s account, two pre-Adamic races are "chained together" in punishment: during each aeon, one is master (visible, present, dominant) while the other is slave (invisible, absent, laboring). The dominant race forces its slaves to raise great idols of themselves through the terrible spiritual labor of mountain-moving.</p>
     
     <blockquote>
         "We were doomed to be the slaves of slaves. For this, two races—ourselves and another—were chained together. I do not know whether I can explain this relationship to you, the closeness that accompanies an utter alienation, the apposition and the opposition."
-        <cite>— Hamadryad</cite>
+        <cite>— Hamadryad, <em>Stellar 1</em>, 134</cite>
     </blockquote>
     
     <p>The story takes place at the moment of turnover. The Monkey era (which Hamadryad calls "the glorious age of the Monkey") ends; the Cat era (the "tyrannical and meticulous age of the Cat") begins. The astrologers who speak of Pisces and Aquarius are dismissed as "bubble-headed fools" who "know neither the constellations in heaven nor the constellations on earth."</p>
@@ -652,10 +659,10 @@
     
     <blockquote>
         "There were quite a number of races who had covenants, before Abraham, before Adam. These covenants were towering things, and their breakings were of immeasurable depth. There was violence and earthquake and earth-shattering in those abysmal falls. After such horrors, God repented himself and made each succeeding test more gentle."
-        <cite>— Hamadryad</cite>
+        <cite>— Hamadryad, <em>Stellar 1</em>, 134</cite>
     </blockquote>
     
-    <p>The Monkey-Cat races experienced their own catastrophic fall, one far worse than humanity's: "Your own encounter, well, it would have been a pretty small thing to those who have known real encounters. And your fall, it was hardly what we would call a fall, without laughing."</p>
+    <p>Hamadryad describes his own fall as far more violent than humanity’s. He says that even his people came comparatively late in a succession of covenants (134).</p>
     
     <h3>The Floating Pavilion</h3>
     
@@ -663,11 +670,11 @@
     
     <h3>The Shadow of God's Thumb</h3>
     
-    <p>At coordinates 29°S, 111°W lies a blind spot where God cannot see. Easter Island drifts toward this point at accelerating speed—now "more than three hundred feet a year." When the island enters the shadow, the turnover occurs "out of the sight of God."</p>
+    <p>At coordinates 29°S, 111°W lies a blind spot where God cannot see. Easter Island drifts toward this point at accelerating speed—now "more than three hundred feet a year." At the start of the final meeting, part of the beach already lies inside the shadow. The island lurches farther into it as the turnover approaches (140, 143–46). The reversal takes place "out of the sight of God."</p>
     
     <blockquote>
         "That's the only point on the globe that God cannot see... Ah, it is in the shadow of His own thumb. He'll not be able to help us when things reach that point. No one will be able to help us."
-        <cite>— Hamadryad</cite>
+        <cite>— Hamadryad, <em>Stellar 1</em>, 130</cite>
     </blockquote>
     
     <p>The blind spot contains frozen or motionless waves whose patterns form "the shadows of the whorls and loops of God's own thumbprint." This provides "positive identification"—if ever a false God should come, the difference would be known. The thumbprint is a signature, a seal of authenticity.</p>
@@ -677,7 +684,7 @@
     <p>In Hamadryad’s account, the megalithic structures of the world—Baalbek, Easter Island, Peru, Egypt—were not built by human devices. He claims the stones are too heavy for modern cranes to lift. Instead, they were raised through the <strong>Faith-that-Moves-Mountains</strong>, which Lafferty presents as literal psychokinesis performed through soul-wrenching spiritual agony. This is the labor of the enslaved race, their "ransom."</p>
     
     <div class="hierarchy">
-        <p style="text-align: center; font-weight: 600; margin-bottom: 1rem; color: var(--ink-brown);">The Spiritual Hierarchy</p>
+        <p style="text-align: center; font-weight: 600; margin-bottom: 1rem; color: var(--ink-brown);">Hamadryad’s Ranking of Spiritual Gifts (135–36)</p>
         <div class="hierarchy-level">
             <div class="hierarchy-rank">Highest</div>
             <div class="hierarchy-content">
@@ -695,13 +702,13 @@
         <div class="hierarchy-level">
             <div class="hierarchy-rank">Lowest</div>
             <div class="hierarchy-content">
-                <div class="hierarchy-title">Glossolalists</div>
+                <div class="hierarchy-title">Those who confuse tongues with gibberish</div>
                 <div class="hierarchy-desc">"God is not the God of gibberish."</div>
             </div>
         </div>
     </div>
     
-    <p>The young puma who moved <span class="term" data-term="black-mesa">Black Mesa</span> nine inches in three days represents this power at its purest: "By soul-wrenching sacrifice, by towering mentality, by garish ghastliness, by rampant animality that young puma moved that mountain... His was Faith, pure and undefiled."</p>
+    <p>Hamadryad says that he watched an untrained, free puma move <span class="term" data-term="black-mesa">Black Mesa</span> nine inches in three days. Its faith precedes any obligation to pay ransom. For Hamadryad, who can scarcely move the grains on the table, the feat measures the work that awaits him (136–37, 144–45).</p>
     
     <h3>Visibility and Presence</h3>
     
@@ -709,12 +716,12 @@
     
     <blockquote>
         "To be invisible is to be in total darkness both objectively and subjectively. In our new, sad state, we will be seen only in our work, in the hewing and transporting and setting, in the homage and ransom."
-        <cite>— Hamadryad</cite>
+        <cite>— Hamadryad, <em>Stellar 1</em>, 145</cite>
     </blockquote>
     
     <h3>Shoulder Angels</h3>
     
-    <p>Humans have their own paired beings: "shoulder angels" visible to all other races but not to humans themselves. These may be "twins somehow deformed" or "afterbirths somewhat mutated," sometimes appearing as "small, fleshy extensions growing out of the human shoulders." The narrator experiences his own splitting at the climax—something goes out from his shoulder to "whimper invisible" while something else takes possession with "great strength and poise."</p>
+    <p>Hamadryad says that other beings see human shoulder angels. Humans usually overlook them, although the fleshy extensions that sometimes grow from a shoulder are visible even to the person who bears them. Whether these are another race, twins, or afterbirths remains a question (134–35). The narrator feels a division at his own left shoulder as the turnover comes (143–46).</p>
 </section>
 
 <!-- ============== MASTER DIAGRAM ============== -->
@@ -743,7 +750,9 @@
         
         All text horizontal. Minimum 15px clearance between elements.
         -->
-        <svg viewBox="0 0 700 940" xmlns="http://www.w3.org/2000/svg">
+        <svg role="group" viewBox="0 0 700 940" xmlns="http://www.w3.org/2000/svg" aria-labelledby="map-title map-desc">
+            <title id="map-title">The Shadow of God’s Thumb</title>
+            <desc id="map-desc">Three encounters, a change of masters and a divided narrator. Select a label to read its explanation and print references.</desc>
             <defs>
                 <radialGradient id="paperGrad" cx="50%" cy="50%" r="70%">
                     <stop offset="0%" stop-color="#ffffff"/>
@@ -850,11 +859,11 @@
                 <text x="62" y="192" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="9" 
                       font-variant="small-caps" letter-spacing="0.08em" 
-                      fill="#3d4043">SPIRITUAL</text>
+                      fill="#3d4043">HAMADRYAD’S</text>
                 <text x="62" y="204" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="9" 
                       font-variant="small-caps" letter-spacing="0.08em" 
-                      fill="#3d4043">HIERARCHY</text>
+                      fill="#3d4043">RANKING</text>
                 <line x1="25" y1="212" x2="100" y2="212" stroke="#3d4043" stroke-width="0.5" opacity="0.3"/>
                 
                 <!-- Highest -->
@@ -884,7 +893,7 @@
                       fill="#7a7265">LOWEST</text>
                 <text x="62" y="330" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="9" 
-                      fill="#2a2725" opacity="0.7">Glossolalists</text>
+                      fill="#2a2725" opacity="0.7">Gibberish speakers</text>
             </g>
             
             <!-- ==================== MAIN CIRCULAR DIAGRAM (center: 350, 480) ==================== -->
@@ -957,10 +966,10 @@
                       fill="#2a2725" opacity="0.7">Madagascar</text>
                 <text x="120" y="489" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" 
-                      fill="#7a7265" opacity="0.6">"drifted back toward</text>
+                      fill="#7a7265" opacity="0.6">drifts partly back</text>
                 <text x="120" y="499" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" 
-                      fill="#7a7265" opacity="0.6">the origin"</text>
+                      fill="#7a7265" opacity="0.6">toward its origin</text>
             </g>
             
             <!-- ==================== LABELS IN THE WHORLS ==================== -->
@@ -1114,10 +1123,10 @@
                 <!-- Drift labels -->
                 <text x="555" y="650" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="8" 
-                      fill="#8b4a3c">27°S, 109°W</text>
+                      fill="#8b4a3c">≈27°S, 108°W</text>
                 <text x="555" y="662" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="8" font-style="italic" 
-                      fill="#8b4a3c">→ 29°S, 111°W</text>
+                      fill="#8b4a3c">→ ≈29°S, 111°W</text>
                 <text x="555" y="676" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" 
                       fill="#7a7265">300+ ft/year</text>
@@ -1152,17 +1161,17 @@
                 
                 <text x="622" y="300" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" font-style="italic" 
-                      fill="#2a2725" opacity="0.6">monkey-self</text>
+                      fill="#2a2725" opacity="0.6">one self</text>
                 <text x="622" y="310" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" 
-                      fill="#2a2725" opacity="0.5">departs</text>
+                      fill="#2a2725" opacity="0.5">recedes</text>
                 
                 <text x="658" y="300" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" font-style="italic" 
-                      fill="#2a2725" opacity="0.8">cat-self</text>
+                      fill="#2a2725" opacity="0.8">other self</text>
                 <text x="658" y="310" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="7" 
-                      fill="#2a2725" opacity="0.7">remains</text>
+                      fill="#2a2725" opacity="0.7">takes over</text>
                 
                 <line x1="600" y1="320" x2="680" y2="320" stroke="#7a7265" stroke-width="0.5" opacity="0.3"/>
                 
@@ -1204,10 +1213,10 @@
                       fill="#2a2725">"twins somehow deformed"</text>
                 <text x="302" y="853" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="8" 
-                      fill="#7a7265">visible to all races</text>
+                      fill="#7a7265">humans can see some</text>
                 <text x="302" y="864" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="8" 
-                      fill="#7a7265">except humans</text>
+                      fill="#7a7265">shoulder growths</text>
             </g>
             
             <!-- KEY box -->
@@ -1242,7 +1251,7 @@
                       fill="#2a2725">"The water, like a</text>
                 <text x="620" y="850" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="8" font-style="italic" 
-                      fill="#2a2725">witch's oils, burnt green,</text>
+                      fill="#2a2725">witch's oils, burnt green</text>
                 <text x="620" y="862" text-anchor="middle" 
                       font-family="Libre Baskerville, Georgia, serif" font-size="8" font-style="italic" 
                       fill="#2a2725">and blue and white"</text>
@@ -1269,13 +1278,13 @@
         <div class="character-card">
             <h4>Mr. Hamadryad</h4>
             <p class="role">Protagonist · Drill / Mandrill / Baboon</p>
-            <p>The "oddest-looking person" the narrator has ever seen: long-nosed, short, stooped, with a "peculiar crest and lay" of hair (his hackles), brown eyes that seem to look through a person, and a "muted howl or bark" for a voice. He is revealed to be a baboon—specifically a drill or mandrill—of the Monkey race that has ruled the last era. His boots conceal baboon feet; when he steps out of them at the turnover, he loses his freedom ("a freebooter no longer") and becomes an invisible slave.</p>
-            <p><strong>Etymology:</strong> Greek <em>hama</em> + <em>dryas</em> ("tree-nymph"); also king cobra (<em>Ophiophagus hannah</em>); also Hamadryas baboon (<em>Papio hamadryas</em>, sacred to Egyptians). The triple meaning encompasses nymph, snake, and primate—all tree-associated.</p>
+            <p>The "oddest-looking person" the narrator has ever seen: long-nosed, short, stooped, with a "peculiar crest and lay" of hair (his hackles), brown eyes that seem to look through a person, and a "muted howl or bark" for a voice. On Easter Island the narrator recognizes a baboon and plays on “drill” and “man-drill” (146), a member of the Monkey race that has ruled the last era. His boots conceal baboon feet; when he steps out of them at the turnover, he loses his freedom ("a freebooter no longer") and becomes an invisible slave.</p>
+            <p>The name brings together three dictionary senses of <em>hamadryad</em>: a tree nymph, a king cobra, and a baboon usually called a <em>hamadryas</em>. The story’s wordplay also joins “man” to “drill” (146).</p>
         </div>
         
         <div class="character-card">
             <h4>Mr. Caracal</h4>
-            <p class="role">Antagonist · Cat · "Herald of the Age of Cat"</p>
+            <p class="role">Antagonist · Cat · Herald of the Age of the Cat</p>
             <p>A "suave, silky man with steep ears" who shows "fastidious contempt" for Hamadryad. At each encounter he grows bolder, challenging Hamadryad's authority until, at the turnover, he achieves "presence" and dominance. He represents the ascending Cat race, about to become visible masters while the Monkeys become invisible slaves.</p>
             <p><strong>Etymology:</strong> Turkish <em>karakulak</em> ("Black Ear"). The caracal is a wild cat distinguished by its long, tufted ear tips—hence "steep ears."</p>
         </div>
@@ -1283,7 +1292,7 @@
         <div class="character-card">
             <h4>Chui</h4>
             <p class="role">Sweep-out boy at Drill's Marine Bar · Leopard</p>
-            <p>"Too clean, too ordered, too sleek, too suave, too cruel, too efficient"—his abilities plainly exceed those of an ordinary sweep-out boy. He cauterizes Hamadryad's wounds with boiling tar, showing "new glitter and avidity" for the task. He speaks of "the resurrection of the implicit stones" that will become Cat-idols. At the turnover, he winks at the transformed narrator—"much more than a sweep-out boy now."</p>
+            <p>The narrator notices Chui’s efficiency before he knows what the sweep-out boy will become. Chui explains the buried stones, cauterizes Hamadryad’s wound, then applies hot ships’ tar to the narrator’s shoulder. After the turnover he winks at the narrator as Mr. Chui (141–43, 146).</p>
             <p><strong>Etymology:</strong> Swahili <em>chui</em>, "leopard."</p>
         </div>
         
@@ -1305,20 +1314,20 @@
             <h4>Jane</h4>
             <p class="role">Bartender at Sun-Deck Club</p>
             <p>Described as "the beautiful bartender" and "the beautiful waitress." She is the only apparently ordinary human named in the story. When asked to intervene against Caracal, she declines: "You never know who is going to end up top cat."</p>
-            <p><strong>Etymology:</strong> From Hebrew <em>Yochanah</em> ("gracious gift" or "God is gracious")—the one gracious, ordinary human amid the preternatural conflict.</p>
+
         </div>
         
         <div class="character-card">
             <h4>The Narrator</h4>
             <p class="role">Coconut trader · Transformed at the turnover</p>
-            <p>A coconut salesman who "travels in coconuts" across the globe. He witnesses Hamadryad's expositions, feels increasingly uneasy, and finally experiences the splitting of his being at the turnover. His Monkey-aspect goes out from his shoulder to become an invisible slave; his Cat-aspect takes full possession. He ends the story as a Cat—"clear and clean, and cool and cruel"—organizing the coconut trade into the "World-Wide New Era Great Cat Coconut Cartel."</p>
+            <p>The coconut trader witnesses the turnover, feels a second self behind his left shoulder, and senses his former self slipping out of his body. The self that takes command calls himself a cat and announces a cartel (145–47).</p>
             <p>His former identity is recast: "a monkey traveling in monkey-nuts." The coconut trade was "the last refuge of free enterprise in the world."</p>
         </div>
     </div>
     
     <h3>The Invisible Slave</h3>
-    <p>Throughout the story, there are footfalls in the corridor: "the powerfully heavy, silky quiet and blurred double steps of a barefoot being." This is Hamadryad's slave—a panther or leopard, invisible because it belongs to the subjugated Cat race. It walks on four padded feet ("double steps"), smells of animal musk, and once rushes at the narrator with a "chilling animal chortle." It accompanies all three encounters and becomes visible as Caracal. Hamadryad calls it "not my friend... my slave" and orders it to remain outside.</p>
-    <p>At the turnover, Caracal is no longer an invisible slave in the corridor: he is fully present.</p>
+    <p>In Dongola the narrator hears and smells a powerful animal in the corridor. He calls it a leopard, then says he believes Mr. Caracal entered the club. He is unsure who left. In Oklahoma City he explicitly identifies the visible Caracal as the being that had been invisible in the corridor (130–31, 139).</p>
+    <p>Caracal could appear before the turnover. What he acquires on Easter Island is full presence as a master, while Hamadryad becomes an invisible slave (145–46).</p>
 </section>
 
 <!-- ============== GLOSSARY ============== -->
@@ -1331,19 +1340,19 @@
         <div class="glossary-entry">
             <h4>Aladdin's Sesame*</h4>
             <p class="etymology">After the magic words "Open Sesame"</p>
-            <p>Small grains Hamadryad adds to his drinks—also described as broomcorn or kunai grass seeds. He practices moving them by telekinesis, "against the day when it would be required of him."</p>
+            <p>Ukali adds Aladdin’s Sesame to the drink in Dongola. Hamadryad moves grains on the table by will. In Oklahoma City he practices with broomcorn, and on Easter Island with flakes of sharkskin pepper and kunai seed (126, 128–29, 133, 137, 144–45).</p>
         </div>
         
         <div class="glossary-entry">
             <h4>Baalbek</h4>
-            <p class="etymology"><em>Baal</em> (lord) + <em>Beka</em> (valley); Lebanon</p>
-            <p>Site of Roman-era temples with stones weighing up to 1,000 tons. Hamadryad cites it as proof that ancient stones exceed modern lifting capacity.</p>
+            <p class="etymology">Ancient temple site in Lebanon</p>
+            <p>Hamadryad invokes the high stones at Baalbek to challenge explanations of ancient construction by ramps and cranes (127–28).</p>
         </div>
         
         <div class="glossary-entry">
             <h4>Black Mesa</h4>
             <p class="etymology">Real landform in Oklahoma Panhandle</p>
-            <p>A young, untrained puma moved it nine inches in three days through pure Faith—"soul-wrenching sacrifice" and "towering mentality."</p>
+            <p>Hamadryad says that a free puma moved Black Mesa nine inches in three days, before it owed ransom (136).</p>
         </div>
         
         <div class="glossary-entry">
@@ -1402,8 +1411,8 @@
         
         <div class="glossary-entry">
             <h4>Madagascar</h4>
-            <p class="etymology">Likely Marco Polo corruption; NOT "Cats and Monkeys Island"</p>
-            <p>The largest piece to break off the Pavilion. Hamadryad invents the etymology "Cats and Monkeys Island"—a false folk etymology the narrator accepts "so as not to seem ignorant."</p>
+            <p class="etymology">The narrator rejects Hamadryad’s fanciful gloss (139).</p>
+            <p>Hamadryad calls Madagascar the largest of the early fragments. On returning to his own account, the narrator says that he agreed with the cats-and-monkeys gloss to avoid appearing ignorant (138–39).</p>
         </div>
         
         <div class="glossary-entry">
@@ -1421,7 +1430,7 @@
         <div class="glossary-entry">
             <h4>Mencius</h4>
             <p class="etymology">Chinese philosopher (371–289 BCE)</p>
-            <p>Cited as believing the dominant force in Yin-Yang/Monkey-Cat alternation is "strong enough to move mountains."</p>
+            <p>In the narrator’s speculative account, Mencius believes the dominant force could move mountains (131).</p>
         </div>
         
         <div class="glossary-entry">
@@ -1457,13 +1466,13 @@
         <div class="glossary-entry">
             <h4>Paracelsus</h4>
             <p class="etymology">Swiss alchemist/physician (1493–1541)</p>
-            <p>Cited as believing the dominant force could "rupture the Earth."</p>
+            <p>The narrator credits Paracelsus with the belief that this force could rupture the Earth (131).</p>
         </div>
         
         <div class="glossary-entry">
             <h4>Pard d'or*</h4>
             <p class="etymology">French: <em>pard d'or</em>, "leopard of gold"</p>
-            <p>Old gold coin of Somaliland. The name ironically contains "pard" (archaic for leopard)—Cat currency paying for Monkey drinks.</p>
+            <p>In the story, an old gold coin of Somaliland. The name ironically contains "pard" (archaic for leopard)—Cat currency paying for Monkey drinks.</p>
         </div>
         
         <div class="glossary-entry">
@@ -1481,7 +1490,7 @@
         <div class="glossary-entry">
             <h4>Qadam</h4>
             <p class="etymology">Arabic: "foot" (unit of measurement)</p>
-            <p>Avicenna (Ibn Sina) is cited as believing islands can move "a <em>qadam</em> or so a year."</p>
+            <p>The narrator attributes to Avicenna the belief that small islands could move about a <em>qadam</em> per year (131).</p>
         </div>
         
         <div class="glossary-entry">
@@ -1505,7 +1514,7 @@
         <div class="glossary-entry">
             <h4>Shoulder Angels*</h4>
             <p class="etymology">Humans' paired beings</p>
-            <p>Visible to all other races but not to humans. May be "twins somehow deformed" or "afterbirths somewhat mutated." Sometimes appear as fleshy shoulder extensions.</p>
+            <p>Other beings see human shoulder angels, Hamadryad says. Humans usually overlook them, but may see fleshy extensions at their own shoulders (134–35).</p>
         </div>
         
         <div class="glossary-entry">
@@ -1542,17 +1551,17 @@
     
     <p>Lafferty takes the real mystery of megalithic construction—how did ancient peoples move stones weighing hundreds or thousands of tons?—and provides a supernatural answer. The <span class="term" data-term="faith-mountains">Faith-that-Moves-Mountains</span> is not metaphor but mechanism. The enslaved race, whether Cat or Monkey depending on the era, performs the labor through psychokinetic agony.</p>
     
-    <p>This explanation serves multiple purposes. It acknowledges the genuine engineering puzzle (Hamadryad claims a 300-ton crane limit; Baalbek's trilithon stones weigh 800+ tons). It connects ancient monuments to spiritual hierarchy (all megalithic structures are "worship buildings"—"is it not odd that there are no secular structures among them?"). And it establishes the terrible stakes of the turnover: whoever becomes slave must suffer this labor for an aeon.</p>
+    <p>Hamadryad imagines a modern crane struggling with three hundred tons. He takes the weight of ancient stones as evidence for his theology (127–28). In his account, the race in bondage raises images of its masters, and the obligation will shortly pass to him (138, 145).</p>
     
-    <p>Hamadryad's desperate practice—moving sesame grains by will while he eats—is pitiable precisely because he knows what lies ahead. "Oh, I'll never be able to do it... How then will I be able to move things a billion billion times heavier?"</p>
+    <p>In Dongola Hamadryad practices on sesame, in Oklahoma City on broomcorn. At the last meal he struggles to move flecks of sharkskin pepper and kunai seed. The contrast measures his dread of the heavier labor ahead (128–29, 137, 144–45).</p>
     
     <h3>The Transformation</h3>
     
-    <p>The story's climax presents transformation as bifurcation. The narrator doesn't simply become a Cat; rather, his Monkey-aspect departs while his Cat-aspect takes full possession. This suggests everyone contains both natures, with one dominant depending on the era.</p>
+    <p>The new self takes over a body the narrator recognizes as his own, while the departing self whimpers invisibly at his shoulder. Reading them as the Monkey and Cat aspects of a single person links his transformation to the changing eras (145–47).</p>
     
-    <p>The transformation's phenomenology is precisely rendered: a "disturbed and bottomless feeling," a "sundering identity crisis," the sensation of being "two of me—one standing just a little apart from the other." The shoulder becomes significant—the narrator feels "a sword going out" of it, and his departing self goes to "whimper invisible at my shoulder." This connects to Hamadryad's discussion of "shoulder angels."</p>
+    <p>As his left shoulder begins to ache, the narrator wonders whether the pain comes from sympathy with Hamadryad. By the final meal he feels himself in two places at once. He can no longer say which self is valid (142–45).</p>
     
-    <p>Post-transformation, the narrator's voice shifts dramatically. The curious, slightly bewildered coconut trader becomes a cold ideologue: "Now I am clear and clean, and cool and cruel... I am divinely mad." The repetition of "cool" and "cruel" (echoing the story's opening) shows the Cat-nature fully realized.</p>
+    <p>The echo of the opening description turns evaluation inside out. What the narrator once feared in the approaching order becomes the voice in which he celebrates it (125, 147).</p>
     
     <h3>The Problem of Evil</h3>
     
@@ -1564,7 +1573,7 @@
     
     <p>Hamadryad's cosmology posits multiple races with covenants before Abraham, before Adam. Each fall was worse than humanity's: "Your own encounter, well, it would have been a pretty small thing... And your fall, it was hardly what we would call a fall, without laughing." God "repented himself and made each succeeding test more gentle."</p>
     
-    <p>This inverts the usual hierarchy. Humans, far from being the cosmic protagonists, are latecomers whose fall was mild. The Monkey-Cat races endured something far worse, and their punishment—eternal alternation as masters and slaves—exceeds anything in human scripture.</p>
+    <p>Hamadryad places his people near the end of a long succession of covenants. He says that those who fell earlier suffered horrors unknown even to him. That admission complicates his claim to explain the human place in the sequence (134).</p>
     
     <h3>Visibility and Ontology</h3>
     
@@ -1576,7 +1585,7 @@
     
     <p>The narrator's trade in coconuts becomes a final bitter joke. Coconuts are "monkey-nuts"—the fruit associated with the Monkey era. The coconut trade represented "the last refuge of free enterprise in the world." When the narrator transforms, he organizes this last holdout into a cartel.</p>
     
-    <p>The phrase "coconut complex" suggests Adam Smith's <em>Wealth of Nations</em>, as if free-market economics itself was simian—"scatterbrained, petty, inefficient and human." The Cat era will be "fastidiously ordered"—cartels, organization, control. The "meticulous age of the Cat" is totalitarianism with feline characteristics.</p>
+    <p>The narrator jokingly asks whether Adam Smith wrote about the coconut trade (147), as if free-market economics itself was simian—"scatterbrained, petty, inefficient and human." The Cat era will be "fastidiously ordered"—cartels, organization, control. The "meticulous age of the Cat" is totalitarianism with feline characteristics.</p>
     
     <h3>The Unreliable Narrator</h3>
     
@@ -1587,41 +1596,48 @@
 
 <!-- ============== SOURCES ============== -->
 <section id="sources">
-    <h2>Literary & Scholarly Sources</h2>
+    <h2>Sources and Allusions</h2>
+    <h3>Print Edition</h3>
+    <p>R. A. Lafferty, “Mr. Hamadryad,” in <em>Stellar 1</em>, edited by Judy-Lynn del Rey (Ballantine Books, 1974), 125–47. Page references in this guide are to this edition.</p>
+    <h3>The Three Encounters in Print</h3>
+    <p>Dongola, 125–31. Oklahoma City, 132–39. Rapa Nui, 139–47. The comparison with the Chinese alternation falls between the first two meetings, on page 131.</p>
+
     
     <h3>Biblical Allusions</h3>
     <ul>
         <li><strong>Matthew 17:20</strong> — "faith as a grain of mustard seed... ye shall say unto this mountain, Remove hence to yonder place; and it shall remove." The Faith-that-Moves-Mountains literalized.</li>
         <li><strong>Mark 16:18</strong> — "They shall take up serpents." Snake-handling as spiritual practice.</li>
-        <li><strong>Luke 22:44</strong> — Jesus sweating blood at Gethsemane. Source of "the red dew of Olivet."</li>
+        <li><strong>Luke 22:44</strong> — Jesus sweating blood at Gethsemane. A possible echo in "the red dew of Olivet."</li>
         <li><strong>Acts 2:4</strong> — Speaking in tongues. Hamadryad distinguishes true "speaking clearly" from gibberish.</li>
         <li><strong>Genesis 3</strong> — The expulsion from Eden. Hamadryad notes humans "had to walk out," while his race "floated out."</li>
     </ul>
     
     <h3>Literary References</h3>
     <ul>
-        <li><strong>Samuel Taylor Coleridge, <em>The Rime of the Ancient Mariner</em> (1798)</strong> — "The water, like a witch's oils, / Burnt green, and blue and white." Hamadryad suggests Coleridge was "one of us."</li>
-        <li><strong>John Milton, <em>Paradise Lost</em> (1667)</strong> — Pandemonium as the capital of Hell. The Pavilion's transition from panangelicum to pandemonium.</li>
-        <li><strong>Adam Smith, <em>The Wealth of Nations</em> (1776)</strong> — Implicit reference in "the coconut complex" and free enterprise as "the last refuge."</li>
+        <li>Samuel Taylor Coleridge, “The Rime of the Ancyent Marinere,” in <em>Lyrical Ballads, with a Few Other Poems</em> (J. &amp; A. Arch, 1798), part 2, 14. On page 137 Hamadryad quotes the lines about the colors of the water and wonders about the poet’s kinship with his people.</li>
+        <li>John Milton, <em>Paradise Lost</em> (1667), book 1, line 756. Milton’s name for the capital of Hell gives literary context to the Pavilion’s change from <em>panangelicum</em> to <em>pandemonium</em> (137).</li>
+        <li>The narrator names Adam Smith in the coconut-trade joke (147). He leaves the work unspecified. Smith’s <em>An Inquiry into the Nature and Causes of the Wealth of Nations</em> (W. Strahan and T. Cadell, 1776) provides a point of comparison.</li>
     </ul>
     
-    <h3>Philosophical & Scientific Sources</h3>
+    <h3>Authorities Invoked by the Narrator (131)</h3>
+    <p>The claims below belong to the story’s speculative account.</p>
     <ul>
-        <li><strong>Mencius (371–289 BCE)</strong> — Chinese Confucian philosopher. Cited on the force strong enough to move mountains.</li>
-        <li><strong>Paracelsus (1493–1541)</strong> — Swiss alchemist. Cited on force strong enough to rupture Earth.</li>
-        <li><strong>Avicenna / Ibn Sina (980–1037)</strong> — Persian polymath. Cited on islands moving "a <em>qadam</em>" per year.</li>
+        <li><strong>Mencius.</strong> The narrator credits him with believing the dominant force could move mountains.</li>
+        <li><strong>Paracelsus.</strong> The narrator credits him with believing that force could rupture the Earth.</li>
+        <li><strong>Avicenna.</strong> The narrator attributes to him a limit on how far small islands can move in a year.</li>
         <li><strong>Yin-Yang</strong> — Chinese dualism. Lafferty parallels this with his Monkey-Cat alternation.</li>
     </ul>
     
     <h3>Linguistic Sources</h3>
     <ul>
-        <li><strong>Swahili</strong> — <em>chui</em> (leopard), <em>ukali</em> (sharpness/severity), <em>kifo</em> (death)</li>
-        <li><strong>Turkish</strong> — <em>karakulak</em> (black ear, source of "caracal")</li>
+        <li><strong>Swahili.</strong> A. C. Madan, <em>Swahili-English Dictionary</em> (Clarendon Press, 1903), 47, 144, 396, gives <em>chui</em> (leopard), <em>kifo</em> (death), and <em>ukali</em> (sharpness or severity).</li>
+        <li><strong>Caracal.</strong> Houshang Alam, “Caracal,” <em>Encyclopaedia Iranica</em> 4, fasc. 7 (1990), 788, traces the name to Turkish words for “black ear.”</li>
         <li><strong>Arabic</strong> — <em>qadam</em> (foot, unit of measurement)</li>
         <li><strong>Greek</strong> — <em>hamadryad</em>, <em>criosphinx</em>, <em>pandemonium</em>, <em>katastrophé</em></li>
         <li><strong>French</strong> — <em>d'or</em> (of gold), <em>d'argile</em> (of clay)</li>
         <li><strong>Sanskrit</strong> — <em>Jagannātha</em> (Juggernaut)</li>
-        <li><strong>Hebrew</strong> — <em>Yochanah</em> (Jane)</li>
+        <li><strong>Hamadryad.</strong> <em>Webster’s New World College Dictionary</em>, 5th ed. (Houghton Mifflin Harcourt, 2014), s.v. “hamadryad.”</li>
+
     </ul>
     
     <h3>Real-World Locations</h3>
@@ -1632,15 +1648,15 @@
         <li><strong>Black Mesa, Oklahoma</strong> — Highest point in Oklahoma (4,973 ft)</li>
         <li><strong>Baalbek, Lebanon</strong> — Site of massive Roman-era stones</li>
         <li><strong>Baidoa, Somalia</strong> — Real town; the Man-Drill Sphinx is invented</li>
-        <li><strong>Madagascar</strong> — Island off Africa; etymology is NOT "Cats and Monkeys"</li>
+        <li><strong>Madagascar.</strong> For the history of the European name and the proposed association with Mogadishu, see Manuel Alberto Carvalho Vicente, <em>Madagascar avant que les Portugais n’y arrivent</em> (CLEPUL, 2015), 81–82.</li>
     </ul>
 </section>
 
 </main>
 
 <!-- Popup container -->
-<div class="popup" id="popup">
-    <button class="popup-close" onclick="closePopup()">×</button>
+<div class="popup" id="popup" role="dialog" aria-labelledby="popup-title">
+    <button class="popup-close" aria-label="Close explanation" onclick="closePopup()">×</button>
     <div class="popup-title" id="popup-title"></div>
     <div class="popup-etymology" id="popup-etymology"></div>
     <div class="popup-content" id="popup-content"></div>
@@ -1651,63 +1667,63 @@
 const glossaryData = {
     'hamadryad': {
         title: 'Hamadryad',
-        etymology: 'Greek <em>hama</em> + <em>dryas</em> (tree-nymph); King Cobra; Hamadryas Baboon',
-        content: 'The protagonist, revealed to be a baboon/drill/mandrill of the Monkey race. His long nose, hackled hair, and "muted howl" are primate features. At the turnover, he steps out of his boots (revealing baboon feet) and becomes an invisible slave.'
+        etymology: 'Tree nymph, king cobra, or baboon (usually <em>hamadryas</em>)',
+        content: 'The protagonist, revealed to be a baboon/drill/mandrill of the Monkey race. His long nose, hackled hair, and "muted howl" are primate features. At the turnover, he steps out of his boots (revealing baboon feet) and becomes an invisible slave. (125–26, 146).'
     },
     'third-cataract': {
         title: 'The Third Cataract Club',
         etymology: 'Dongola, Sudan — near the third of six Nile cataracts',
-        content: 'Setting of the first encounter. Hamadryad orders a Stony Giant, pays with a <em>pard d\'or</em>, and explains his megalithic theories. Ukali the barboy classifies people into "nine kinds of nuts."'
+        content: 'Setting of the first encounter. Hamadryad orders a Stony Giant, pays with a <em>pard d\'or</em>, and explains his megalithic theories. Ukali the barboy classifies people into "nine kinds of nuts." (125–31).'
     },
     'sun-deck': {
         title: 'Sun-Deck Club',
         etymology: 'Oklahoma City, USA',
-        content: 'Setting of the second encounter. Hamadryad orders a Ring-tailed Rouser, pays with a Jackson, and describes witnessing a puma move Black Mesa nine inches. Jane the bartender refuses to intervene against Caracal.'
+        content: 'Setting of the second encounter. Hamadryad orders a Ring-tailed Rouser, pays with a Jackson, and describes witnessing a puma move Black Mesa nine inches. Jane the bartender refuses to intervene against Caracal. (133–39).'
     },
     'drills-marine': {
         title: 'Drill\'s Marine Bar',
         etymology: 'Rapa Nui / Easter Island',
-        content: 'Setting of the third and final encounter. Hamadryad orders a Final Catastrophe, pays with a nui d\'argile, and the turnover occurs. Drill the proprietor is himself a drill (primate) who disappears into slavery.'
+        content: 'Setting of the third and final encounter. Hamadryad orders a Final Catastrophe, pays with a nui d\'argile, and the turnover occurs. Drill the proprietor is himself a drill (primate) who disappears into slavery. (139–47).'
     },
     'monkey-cat': {
         title: 'Monkey-Cat Alternation',
         etymology: 'Parallel to Yin-Yang dualism',
-        content: 'The cosmic cycle in which two pre-Adamic races alternate as masters and slaves. The dominant race is visible and "present"; the slave race is invisible, condemned to raise megalithic idols through soul-wrenching labor.'
+        content: 'The cosmic cycle in which two pre-Adamic races alternate as masters and slaves. The dominant race is visible and "present"; the slave race is invisible, condemned to raise megalithic idols through soul-wrenching labor. (134–36, 144–46).'
     },
     'faith-mountains': {
         title: 'Faith-that-Moves-Mountains',
         etymology: 'Matthew 17:20',
-        content: 'Literal psychokinesis performed through spiritual agony. The highest gift in Hamadryad\'s hierarchy. The enslaved race must move massive stones through this terrible labor as "ransom."'
+        content: 'Literal psychokinesis performed through spiritual agony. The highest gift in Hamadryad\'s hierarchy. The enslaved race must move massive stones through this terrible labor as "ransom." (135–37).'
     },
     'caracal': {
         title: 'Mr. Caracal',
         etymology: 'Turkish <em>karakulak</em> ("Black Ear")',
-        content: 'A suave, silky man with steep (tufted) ears. Herald of the Age of Cat. He grows bolder at each encounter until, at the turnover, he achieves dominance and "presence."'
+        content: 'A suave, silky man with steep (tufted) ears. Herald of the Age of Cat. He grows bolder at each encounter until, at the turnover, he achieves dominance and "presence." (130–31, 139, 146).'
     },
     'easter-island': {
         title: 'Easter Island / Rapa Nui',
-        etymology: 'Pacific island at 27°S, 109°W',
-        content: 'The remnant of the floating Pavilion, drifting toward the blind spot at 29°S, 111°W. Famous for <em>moai</em> statues, which Lafferty reveals as baboon-faced idols raised by Cat slaves during the Monkey era.'
+        etymology: 'Hamadryad places the fictional island near 27°S, 108°W',
+        content: 'The remnant of the floating Pavilion, drifting toward the blind spot at 29°S, 111°W. Famous for <em>moai</em> statues, which Lafferty reveals as baboon-faced idols raised by Cat slaves during the Monkey era. (129–30, 139–41, 146).'
     },
     'blind-spot': {
         title: 'Shadow of God\'s Thumb',
         etymology: 'Coordinates 29°S, 111°W',
-        content: 'A blind spot where God cannot see—cast by His own thumb. The frozen waves there bear His thumbprint pattern. When Easter Island enters this shadow, the turnover occurs "out of the sight of God."'
+        content: 'A blind spot where God cannot see—cast by His own thumb. The frozen waves there bear His thumbprint pattern. When Easter Island enters this shadow, the turnover occurs "out of the sight of God." (130, 140–41).'
     },
     'panangelicum': {
         title: 'Panangelicum',
         etymology: 'Greek <em>pan</em> (all) + <em>angelikos</em> (angelic)',
-        content: 'An all-angelic community. The floating Pavilion was once this before the fall transformed it into a <em>pandemonium</em>.'
+        content: 'An all-angelic community. The floating Pavilion was once this before the fall transformed it into a <em>pandemonium</em>. (137–38).'
     },
     'pandemonium': {
         title: 'Pandemonium',
         etymology: 'Greek <em>pan</em> (all) + <em>daimon</em> (demon); Milton\'s capital of Hell',
-        content: 'What the Pavilion became after the fall. The island shifted from <em>panangelicum</em> to <em>pandemonium</em> as beings fell from grace.'
+        content: 'What the Pavilion became after the fall. The island shifted from <em>panangelicum</em> to <em>pandemonium</em> as beings fell from grace. (137–38).'
     },
     'black-mesa': {
         title: 'Black Mesa',
         etymology: 'Highest point in Oklahoma (4,973 ft)',
-        content: 'A young, untrained puma moved it nine inches in three days through pure Faith—"soul-wrenching sacrifice" and "towering mentality." Hamadryad witnessed this and attests to it.'
+        content: "Hamadryad reports watching a free, untrained puma move Black Mesa nine inches in three days. The feat precedes any ransom the puma might owe (136)."
     }
 };
 
@@ -1716,87 +1732,87 @@ const diagramData = {
     'dongola': {
         title: 'First Encounter: Dongola',
         etymology: 'The Third Cataract Club, Sudan',
-        content: 'The first meeting between the narrator and Hamadryad. Here the coconut trader first hears of the Monkey-Cat alternation. Hamadryad orders a Stony Giant (palm wine, saline rock-dust, stork egg) and pays with a <em>pard d\'or</em>—gold coin ironically bearing the Cat\'s name. Ukali the barboy classifies guests into "nine kinds of nuts" with air-drawn letters.'
+        content: "The coconut trader hears two sets of steps and meets Hamadryad, who orders a Stony Giant and pays Ukali in gold. The talk turns to the raising of megaliths. The narrator thinks Caracal enters, but is uncertain who leaves (125–31)."
     },
     'oklahoma': {
         title: 'Second Encounter: Oklahoma City',
         etymology: 'Sun-Deck Club, "that dusty, trail-crossing town"',
-        content: 'Five years later. Hamadryad orders a Ring-tailed Rouser (clear whiskey, gypsum dust, scissor-tail flycatcher egg) and pays with a Jackson—a $20 bill, "green-skin" paper currency. He describes witnessing a puma move Black Mesa nine inches through pure Faith. Caracal grows bolder; Jane the bartender declines to intervene: "You never know who is going to end up top cat."'
+        content: "Five years later, Hamadryad orders a Ring-tailed Rouser and pays with a Jackson. He says he saw a free puma move Black Mesa nine inches in three days. The narrator identifies the visible Caracal as the being that had been invisible in the corridor. Jane declines to intervene (133, 136, 139)."
     },
     'rapanui': {
         title: 'Third Encounter: Easter Island',
         etymology: 'Drill\'s Marine Bar, Rapa Nui',
-        content: 'The final meeting. The island drifts toward the blind spot at accelerating speed—now more than 300 feet per year. Hamadryad orders a Final Catastrophe (fermenting palm wine, sharkskin pepper, cormorant egg) and pays with clay coins nearly worthless: "One always enters a great turnover broke and in debt." The turnover occurs. Hamadryad shrinks into invisibility; Caracal achieves presence; the narrator transforms.'
+        content: 'The final meeting. The island is already entering the shadow at more than 300 feet a year. During the encounter it appears to lurch a further fifteen feet (140, 143). Hamadryad orders a Final Catastrophe (fermenting palm wine, sharkskin pepper, cormorant egg) and pays with clay coins nearly worthless: "One always enters a great turnover broke and in debt." The turnover occurs. Hamadryad shrinks into invisibility; Caracal achieves presence; the narrator transforms.'
     },
     'hierarchy': {
         title: 'The Spiritual Hierarchy',
         etymology: 'Gifts arranged by difficulty and authenticity',
-        content: 'Hamadryad ranks spiritual gifts: HIGHEST are the Mountain-Movers, who perform literal psychokinesis through soul-wrenching agony. MIDDLE are the Snake-Handlers, who "bring courage to the affair" (cf. Mark 16:18). LOWEST are the Glossolalists: "God is not the God of gibberish." True Faith moves mountains; mere gibberish accomplishes nothing.'
+        content: "In Hamadryad’s ranking, the mountain-movers undertake the hardest labor and the snake-handlers bring courage. He reserves his contempt for those he thinks have misunderstood speaking in tongues. The free puma illustrates the gift before any ransom is owed (135–36)."
     },
     'madagascar': {
         title: 'Madagascar',
         etymology: 'NOT "Cats and Monkeys Island" (invented folk etymology)',
-        content: 'The largest piece to break off from the floating Pavilion. Hamadryad invents the etymology "Cats and Monkeys Island"—a false folk etymology the narrator accepts "so as not to seem ignorant." In reality, the name likely derives from Marco Polo\'s corruption of a Somali word. Madagascar "drifted back partly toward the direction of our origin," toward Africa.'
+        content: "Hamadryad says Madagascar was the largest of the early fragments of the Pavilion, drifting partly back toward the direction of their origin. He supplies a fanciful meaning for its name, which the narrator later rejects (138–39)."
     },
     'pavilion': {
         title: 'The Floating Pavilion',
         etymology: 'The exile-float of the Monkey-Cat races',
-        content: 'After their fall, the Monkey-Cat races were expelled not on foot but on a floating island—"a Pavilion... an aromatic, many-colored mountain-island that was fruitful beyond description." Originally "larger than the world," it was once a <em>panangelicum</em> (all-angelic community) that became a <em>pandemonium</em> (Milton\'s capital of Hell). All islands are pieces broken off from it; Easter Island is what remains.'
+        content: 'After their fall, the Monkey-Cat races were expelled not on foot but on a floating island—"a Pavilion... an aromatic, many-colored mountain-island that was fruitful beyond description." Originally "larger than the world," it was once a <em>panangelicum</em> (all-angelic community) that became a <em>pandemonium</em> (Milton\'s capital of Hell). All islands are pieces broken off from it; Easter Island is what remains. (137–38).'
     },
     'preadamic': {
         title: 'Pre-Adamic Covenants',
         etymology: '"Covenants before Abraham, before Adam"',
-        content: 'Hamadryad describes multiple falls before humanity\'s: "There were quite a number of races who had covenants, before Abraham, before Adam. These covenants were towering things, and their breakings were of immeasurable depth." The Monkey-Cat fall was far worse than humanity\'s: "Your own encounter, well, it would have been a pretty small thing... And your fall, it was hardly what we would call a fall, without laughing."'
+        content: 'Hamadryad describes multiple falls before humanity\'s: "There were quite a number of races who had covenants, before Abraham, before Adam. These covenants were towering things, and their breakings were of immeasurable depth." The Monkey-Cat fall was far worse than humanity\'s: "Your own encounter, well, it would have been a pretty small thing... And your fall, it was hardly what we would call a fall, without laughing." (134).'
     },
     'monkey': {
         title: 'The Monkey Race',
         etymology: 'Baboons, drills, mandrills — the departing masters',
-        content: 'One of two pre-Adamic races "chained together" in punishment. During the ending era, the Monkeys were masters—visible, present, dominant. They forced the Cat-slaves to raise baboon-faced <em>moai</em> through the Faith-that-Moves-Mountains. At the turnover, they become invisible slaves: Hamadryad steps out of his boots (revealing baboon feet) and shrinks into non-presence. The Monkey era ends.'
+        content: 'One of two pre-Adamic races "chained together" in punishment. During the ending era, the Monkeys were masters—visible, present, dominant. They forced the Cat-slaves to raise baboon-faced <em>moai</em> through the Faith-that-Moves-Mountains. At the turnover, they become invisible slaves: Hamadryad steps out of his boots (revealing baboon feet) and shrinks into non-presence. The Monkey era ends. (138, 145–46).'
     },
     'cat': {
         title: 'The Cat Race',
         etymology: 'Panthers, leopards, caracals — the ascending masters',
-        content: 'The other pre-Adamic race. During the Monkey era, Cats were invisible slaves, condemned to the terrible labor of mountain-moving. The narrator hears "double steps in the corridor"—Hamadryad\'s Cat-slave, a panther walking on four padded feet. At the turnover, Cats achieve presence: Caracal becomes visible; Chui is "much more than a sweep-out boy now." The "meticulous age of the Cat" begins.'
+        content: "Cats have served the Monkeys. Caracal is visible in the Oklahoma City club, where the narrator identifies him with the unseen corridor presence (139). He attains full presence at the turnover on Easter Island, while Hamadryad fades and Mr. Chui gains standing (145–46)."
     },
     'blindspot': {
         title: 'The Blind Spot',
         etymology: '29°S, 111°W — "where God cannot see"',
-        content: 'A point on Earth where God\'s own thumb casts a shadow, creating a blind spot. Easter Island drifts toward it. The frozen waves there bear the pattern of God\'s thumbprint whorls—"positive identification" against any false deity. When the island enters this shadow, the turnover occurs "out of the sight of God." No sun, moon, stars, magnetism, wind, or life exist there.'
+        content: 'A point on Earth where God\'s own thumb casts a shadow, creating a blind spot. Easter Island drifts toward it. The frozen waves there bear the pattern of God\'s thumbprint whorls—"positive identification" against any false deity. When the island enters this shadow, the turnover occurs "out of the sight of God." No sun, moon, stars, magnetism, wind, or life exist there. (140–41).'
     },
     'stones': {
         title: 'The Implicit Stones',
         etymology: '"Implicit in the Earth from the beginning"',
-        content: 'Basalt stones hidden in the Earth since creation, revealed when the blind spot\'s harrowing passes over the land. They will become the new idols of the Cat era—cat-faced statues to replace the baboon-faced <em>moai</em>. Chui speaks of "the resurrection of the implicit stones," which the Monkey-slaves must now raise through soul-wrenching labor.'
+        content: 'Basalt stones hidden in the Earth since creation, revealed when the blind spot\'s harrowing passes over the land. They will become the new idols of the Cat era—cat-faced statues to replace the baboon-faced <em>moai</em>. Chui speaks of "the resurrection of the implicit stones," which the Monkey-slaves must now raise through soul-wrenching labor. (141, 145–47).'
     },
     'faith': {
         title: 'Faith-that-Moves-Mountains',
         etymology: 'Matthew 17:20 — literal, not metaphorical',
-        content: 'The enslaved race must raise megalithic idols to their masters through psychokinetic agony. This is not metaphor but mechanism: "By soul-wrenching sacrifice, by towering mentality, by garish ghastliness, by rampant animality that young puma moved that mountain." The stones of Baalbek, Easter Island, Peru, and Egypt were all raised this way—the ransom paid by slaves to masters.'
+        content: "Hamadryad attributes the raising of the idols to the labor of an enslaved race. By contrast, he says that the young puma moved Black Mesa while still free and before it owed ransom (134–38)."
     },
     'drift': {
         title: 'Easter Island Drifting',
-        etymology: 'From 27°S, 109°W toward 29°S, 111°W',
-        content: 'The remnant Pavilion accelerates toward doom. Now drifting at "more than three hundred feet a year." The island rushes toward the blind spot where the turnover will occur. The <em>moai</em> statues—baboon-faced idols of the Monkey era—watch the approach. Soon they will be replaced by cat-faced implicit stones raised by Monkey-slaves.'
+        etymology: 'From 27°S, 108°W toward 29°S, 111°W',
+        content: "During the Dongola conversation, Hamadryad gives the island’s fictional position as approximately 27°S, 108°W, with the center of the shadow about 29°S, 111°W (129–30). Years later the narrator reports a drift of more than three hundred feet a year. Some of the beach is already under shadow, and during the encounter the island seems to shift another fifteen feet (140, 143)."
     },
     'transformation': {
         title: 'The Narrator\'s Transformation',
         etymology: '"A sundering identity crisis"',
-        content: 'At the turnover, the narrator feels himself splitting: "There were two of me—one standing just a little apart from the other." His Monkey-self departs from his shoulder to "whimper invisible" as a slave. His Cat-self takes full possession: "Now I am clear and clean, and cool and cruel... divinely mad, but cool and cruel." He organizes the coconut trade into the "World-Wide New Era Great Cat Coconut Cartel."'
+        content: "The narrator feels a second self behind his left shoulder. Something of himself slips out of his body, while another self takes possession and eventually calls himself a cat. The new narrator organizes the coconut cartel (145–47)."
     },
     'turnover': {
         title: 'The Great Turnover',
         etymology: 'Greek <em>katastrophé</em> — "overturning"',
-        content: 'The moment when master and slave races exchange positions. The Monkey era ends; the Cat era begins. Hamadryad shrinks into invisibility; Caracal achieves presence. The narrator\'s Monkey-self departs; his Cat-self takes control. "One always enters a great turnover broke and in debt"—the new slaves begin their aeon of labor, raising cat-faced idols through the Faith-that-Moves-Mountains.'
+        content: "The Monkeys lose their mastery and must raise idols for the Cats. Hamadryad recedes while Caracal gains full presence. The narrator experiences the change as a division within his own body (144–47)."
     },
     'shoulderangels': {
         title: 'Shoulder Angels',
         etymology: 'Humans\' paired beings — "twins somehow deformed"',
-        content: 'Humans have their own paired beings, visible to all other races but not to humans themselves. They may be "afterbirths somewhat mutated," sometimes appearing as "small, fleshy extensions growing out of the human shoulders." The narrator experiences his own splitting at the turnover—his shoulder is where the Monkey-self departs. Every human walks with something invisible at their shoulder.'
+        content: "Hamadryad says other beings see human shoulder angels. Humans usually overlook them, though fleshy extensions at the shoulder can sometimes be seen even by their bearers. Hamadryad offers several explanations for their origin (134–35)."
     },
     'coleridge': {
         title: 'Coleridge Allusion',
         etymology: '<em>The Rime of the Ancient Mariner</em> (1798)',
-        content: 'Hamadryad quotes Coleridge\'s description of tropical seas: "The water, like a witch\'s oils, / Burnt green, and blue and white." He suggests the poet was "one of us"—possibly initiated into Monkey mysteries, perhaps a being with preternatural knowledge. The allusion connects the story to Romantic visions of supernatural voyages and cursed mariners.'
+        content: "In describing the waters of the Pavilion, Hamadryad borrows two lines from Coleridge and wonders whether the poet belonged to his people (137). See Coleridge, “The Rime of the Ancyent Marinere,” part 2, in Lyrical Ballads (1798), 14."
     }
 };
 
@@ -1806,94 +1822,59 @@ const popupTitle = document.getElementById('popup-title');
 const popupEtymology = document.getElementById('popup-etymology');
 const popupContent = document.getElementById('popup-content');
 
-function showDiagramPopup(key, event) {
-    event.stopPropagation();
-    
-    const data = diagramData[key];
-    if (!data) {
-        console.log('No data for key:', key);
-        return;
-    }
-    
+let popupTrigger;
+function openPopup(data, trigger, x, y) {
+    if (!data) return;
+    popupTrigger = trigger;
     popupTitle.textContent = data.title;
     popupEtymology.innerHTML = data.etymology;
     popupContent.innerHTML = data.content;
-    
-    // Position popup near click point (fixed positioning uses viewport coordinates)
-    const popupWidth = 380;
-    let left = event.clientX + 15;
-    let top = event.clientY + 15;
-    
-    // Keep popup within viewport
-    if (left + popupWidth > window.innerWidth - 20) {
-        left = event.clientX - popupWidth - 15;
-    }
-    if (left < 20) left = 20;
-    
-    // Prevent popup from going below viewport
-    const popupHeight = 200;
-    if (top + popupHeight > window.innerHeight - 20) {
-        top = event.clientY - popupHeight - 15;
-    }
-    if (top < 20) top = 20;
-    
-    popup.style.left = left + 'px';
-    popup.style.top = top + 'px';
-    popup.style.maxWidth = popupWidth + 'px';
     popup.classList.add('active');
+    const margin = 12;
+    const rightEdge = window.innerWidth - popup.offsetWidth - margin;
+    const bottomEdge = window.innerHeight - popup.offsetHeight - margin;
+    popup.style.left = Math.max(margin, Math.min(x + margin, rightEdge)) + 'px';
+    popup.style.top = Math.max(margin, Math.min(y + margin, bottomEdge)) + 'px';
+    popup.querySelector('button').focus({ preventScroll: true });
 }
 
-function showGlossaryPopup(key, element) {
-    const data = glossaryData[key];
-    if (!data) return;
-    
-    popupTitle.textContent = data.title;
-    popupEtymology.innerHTML = data.etymology;
-    popupContent.innerHTML = data.content;
-    
-    // Position popup (fixed positioning uses viewport coordinates)
-    const rect = element.getBoundingClientRect();
-    const popupWidth = 380;
-    let left = rect.left;
-    let top = rect.bottom + 10;
-    
-    // Keep popup within viewport
-    if (left + popupWidth > window.innerWidth - 20) {
-        left = window.innerWidth - popupWidth - 20;
-    }
-    if (left < 20) left = 20;
-    
-    popup.style.left = left + 'px';
-    popup.style.top = top + 'px';
-    popup.style.maxWidth = popupWidth + 'px';
-    popup.classList.add('active');
+function showDiagramPopup(key, event) {
+    event.stopPropagation();
+    openPopup(diagramData[key], event.currentTarget, event.clientX, event.clientY);
 }
 
 function closePopup() {
     popup.classList.remove('active');
+    if (popupTrigger) popupTrigger.focus({ preventScroll: true });
+    popupTrigger = null;
 }
 
-// Initialize glossary term clicks
-document.querySelectorAll('.term').forEach(term => {
-    term.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        showGlossaryPopup(this.getAttribute('data-term'), this);
+document.querySelectorAll('.term, .diagram-clickable').forEach(trigger => {
+    const isDiagram = trigger.hasAttribute('data-diagram');
+    const entry = isDiagram ? diagramData[trigger.dataset.diagram] : glossaryData[trigger.dataset.term];
+    if (!entry) return;
+    trigger.setAttribute('role', 'button');
+    trigger.setAttribute('tabindex', '0');
+    trigger.setAttribute('aria-label', entry.title);
+    trigger.setAttribute('aria-haspopup', 'dialog');
+    trigger.setAttribute('aria-controls', 'popup');
+    function openFromTrigger(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        const bounds = trigger.getBoundingClientRect();
+        openPopup(entry, trigger, bounds.left, bounds.bottom);
+    }
+    if (!isDiagram) trigger.addEventListener('click', openFromTrigger);
+    trigger.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') openFromTrigger(event);
     });
 });
 
-// Close popup when clicking outside
-document.addEventListener('click', function(e) {
-    if (!e.target.classList.contains('term') && !popup.contains(e.target)) {
-        closePopup();
-    }
+document.addEventListener('click', event => {
+    if (popup.classList.contains('active') && !popup.contains(event.target)) closePopup();
 });
-
-// Close popup on escape key
-document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        closePopup();
-    }
+document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && popup.classList.contains('active')) closePopup();
 });
 </script>
 
